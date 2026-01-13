@@ -64,7 +64,9 @@ def handicap(grades=('Limit', 'D', 'C', 'B', 'Scratch'), speed=(31.0, 33.0, 35.0
 
     #print(df)
 
-    file_name = "C:\\Users\\" + Username + "\\Downloads\\RaceSettings.xlsx"
+    z = datetime.strftime(datetime.now(), '%Y%m%d%H%M%S')
+
+    file_name = "C:\\Users\\" + Username + "\\Downloads\\RaceSettings" + str(z) + ".xlsx"
     with pd.ExcelWriter(file_name) as writer:
         df.to_excel(writer, sheet_name='RaceData', index=False)
         print("saved to " + file_name)
