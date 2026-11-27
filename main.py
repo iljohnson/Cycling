@@ -48,7 +48,7 @@ label5 = tk.Label(root, text='Enter your merge point, in km before the finish, a
 label5.grid(row=9, column=2,padx=20, pady=20)
 textbox5 = tk.Entry(root, width=6, justify='center', font=('Arial', 18))
 textbox5.insert(tk.END,  1.5)
-textbox5.grid(row=12, column=2,padx=20, pady=10)
+textbox5.grid(row=10, column=2,padx=20, pady=10)
 
 
 def callback():
