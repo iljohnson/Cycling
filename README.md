@@ -8,3 +8,5 @@ The process to follow is:
 
 1 – run the program and it will produce a handicap information table based on the default input parameters. If these are acceptable, click on the “Save Table to file” button to save a copy to your downloads folder.
 2 – if the default settings need to be changed, update as required and then click on the “Update Handicap Table” button and this will run through a series of error checks to confirm correctly formatted input has been provided and once confirmed will update the Handicap Table. Review and if acceptable, click on the “Save Table to file” button to save a copy to your downloads folder.
+
+The link to the widows exe file has been removed and you will now need to run from python or build your own windows exe from the python code.
