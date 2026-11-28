@@ -111,7 +111,7 @@ Enter = tk.Button(
 
 )
 
-Enter.grid(row=11, column=0, padx=10, pady=10)
+Enter.grid(row=11, column=0, padx=8, pady=8)
 
 
 a = textbox1.get().split()
@@ -123,7 +123,7 @@ e = float(textbox5.get())
 frame = tk.Frame(root)
 frame.grid(row=12, column=0, columnspan=5, sticky='EW')
 
-# RUN the handicap function and return a dataframe this happens at start up and uses teh default values ###############
+# RUN the handicap function and return a dataframe this happens at start up and uses the default values ###############
 
 df = handicap(a, b, c, d, e)
 
@@ -135,7 +135,7 @@ z = df
 pt = Table(frame, dataframe=df, showtoolbar=False, showstatusbar=False, height=200)
 
 
-options = {'fontsize': 12, 'cellwidth': 120, 'align': 'center'}
+options = {'fontsize': 9, 'cellwidth': 100, 'align': 'center'}
 config.apply_options(options, pt)
 
 
